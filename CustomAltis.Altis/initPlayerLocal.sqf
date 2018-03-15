@@ -1,3 +1,13 @@
+// Custom Tweaks to sway and stamina
+player setCustomAimCoef 0.4;
+player addMPEventhandler ["MPRespawn", {player setCustomAimCoef 0.4}];
+ 
+player setUnitRecoilCoefficient 0.6;
+player addEventHandler ["Respawn", {player setUnitRecoilCoefficient 0.6}];
+ 
+player enablestamina false
+player addEventHandler ["Respawn", {player enablestamina false}];
+
 // Temporary until SquadMod
 ["InitializePlayer",[player, true]] call BIS_fnc_dynamicGroups;
 
