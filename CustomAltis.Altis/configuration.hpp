@@ -135,7 +135,7 @@ class CfgRespawnMP {
 	};
 	class west {
 		respawn[] = {"Base","Group","Rallypoint","Countdown"}; // ,"Wave","Spectator","Trigger"
-		respawnTimer = 120;
+		respawnTimer = 5;
 		redeploy[] = {"Base","Group","Halo","Rallypoint"};
 		redeployVehicles[] = {"Base","Halo"};
 		redeployDelay = 10;
@@ -217,6 +217,7 @@ class CfgVirtualDepot {
 	class VehicleLimit {
 		Plane = 2;
 		Air = 1;
+		Tank = 10
 	};
 
 	// Used in "mpsf\functions\spawner\fn_createCarrier01.sqf" for spawning the carrier to support Vehicle Depots
