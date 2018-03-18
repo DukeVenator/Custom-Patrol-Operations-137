@@ -1,3 +1,9 @@
+// New code for sstam
+player setCustomAimCoef 0.34;
+player setUnitRecoilCoefficient 0.50;
+player enablestamina false;
+
+
 // Temporary until SquadMod
 ["InitializePlayer",[player, true]] call BIS_fnc_dynamicGroups;
 
