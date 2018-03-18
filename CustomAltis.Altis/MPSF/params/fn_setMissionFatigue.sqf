@@ -18,7 +18,7 @@ _this spawn {
 		case 1 : {
 			player enableFatigue true;
 			["MPSF_Fatigue_onRespawn_EH","onRespawn",{
-				player enableFatigue true;
+				player enableFatigue false;
 			}] call MPSF_fnc_addEventHandler;
 		};
 	};
