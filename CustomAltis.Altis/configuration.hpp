@@ -135,7 +135,7 @@ class CfgRespawnMP {
 	};
 	class west {
 		respawn[] = {"Base","Group","Rallypoint","Countdown"}; // ,"Wave","Spectator","Trigger"
-		respawnTimer = 5;
+		respawnTimer = 15;
 		redeploy[] = {"Base","Group","Halo","Rallypoint"};
 		redeployVehicles[] = {"Base","Halo"};
 		redeployDelay = 10;
